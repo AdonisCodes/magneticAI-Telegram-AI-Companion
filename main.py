@@ -148,6 +148,7 @@ if __name__ == '__main__':
     app.add_handler(CommandHandler('help', help_command))
     app.add_handler(CommandHandler('voice', voice_command))
     app.add_handler(CommandHandler('image', image_command))
+  
     # Messages
     app.add_handler(MessageHandler(filters=None, callback=handle_message))
 
